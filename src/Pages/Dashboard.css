@@ -1,0 +1,16 @@
+.dashboard {
+  min-height: 89vh;
+  width: 100%;
+  display: flex;
+}
+
+.dashboard-sidebar {
+  width: 250px;
+  flex-shrink: 0;
+}
+
+.dashboard-herosection {
+  flex: 1;
+  height: 89vh;
+  overflow-y: auto;
+}

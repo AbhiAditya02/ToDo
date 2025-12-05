@@ -1,0 +1,141 @@
+.Herosection {
+    min-height: 89vh;
+    width: 100%;
+    background: linear-gradient(to right,
+            rgba(184, 188, 197, 0.9) 0%,
+            rgba(120, 121, 123, 0.6) 50%,
+            rgba(184, 188, 197, 0.9) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Herosection-Tittle {
+    padding: 15px;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 800;
+    
+}
+
+.Add-Task {
+    width: 350px;
+}
+
+.Add-Task {
+    background-color: whitesmoke;
+    border: 1px solid rgb(215, 215, 215);
+    border-radius: 14px;
+    padding: 15px 30px;
+}
+
+.Add-Task-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px;
+}
+
+.Add-Task-btn-Section {
+    display: flex;
+    justify-content: space-around;
+    padding: 5px 0px;
+}
+
+.Add-Task-Lable {
+    font-weight: 800;
+    margin-right: 5px;
+}
+
+.Add-Task-Input {
+    width: 100%;
+    height: 25px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 5px;
+}
+
+.AddTask-btn {
+    height: 25px;
+    width: 150px;
+    padding: 5px 0px;
+    font-weight: 700;
+    cursor: pointer;
+    background-color: rgba(3, 88, 247, 0.839);
+    color: whitesmoke;
+    border: none;
+    border-radius: 18px;
+}
+
+.Task-Section{
+    background-color: whitesmoke;
+    border-radius: 8px;
+    margin: 20px;
+    padding: 20px;
+    width: 600px;
+}
+
+.Task-button-section{
+    display: flex;
+    gap: 5px;
+}
+
+.Task-button {
+    border: none;
+    border-bottom: 4px solid rgba(35, 36, 37, 0.8);
+    padding: 3px 10px;
+    background: none;
+    width: fit-content;
+    font-size: large;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.active {
+    border-bottom: 4px solid rgba(3, 88, 247, 0.8);
+    background: linear-gradient(to top, #aedafb62, whitesmoke);
+}
+
+.Task-list {
+    margin: 25px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.Task-list-item {
+    border: none;
+    background-color: rgba(227, 227, 227, 0.689);
+    border-radius: 8px;
+    padding: 5px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+
+.Task-list-item-title {
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.Task-list-item-Des {
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+.bin {
+    min-width: 25px;
+    color: red;
+    margin: 0px 0px 0px 20px;
+    cursor: pointer;
+}
+.done {
+    min-width: 25px;
+    color: green;
+    margin: 0px 0px 0px 20px;
+    cursor: pointer;
+}

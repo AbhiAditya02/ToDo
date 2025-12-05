@@ -1,0 +1,13 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: white;
+  z-index: 1000;
+}
+
+.app-content {
+  height: calc(89vh);
+  overflow-y: auto;
+}
