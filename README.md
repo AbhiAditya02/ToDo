@@ -14,16 +14,16 @@ This app is designed to help users **organize daily tasks effortlessly** with a 
 ## 🖼️ UI Screenshots  
 
 ### 🔹 Home Page  
-![Home](./src/assests/Screenshots/home.png)
+![Home](./src/assests/Screenshots/home.jpg)
 
 ### 🔹 Sign In Page  
 ![Sign In](./src/assests/Screenshots/signin.png)
 
 ### 🔹 Dashboard Page  
-![Dashboard](./src/assests/Screenshots/dashboard.png)
+![Dashboard](./src/assests/Screenshots/dashboard.jpg)
 
 ### 🔹 Profile Page  
-![Profile](./src/assests/Screenshots/profile.png)
+![Profile](./src/assests/Screenshots/profile.jpg)
 
 
 ## ✨ Features
