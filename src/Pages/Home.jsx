@@ -2,6 +2,7 @@ import React, { useContext } from "react";
 import "./Home.css";
 import { Link } from "react-router-dom";
 import AuthContext from "../Context/AuthContext";
+import logo from '../assests/To-do.png';
 
 const Home = () => {
   const data = useContext(AuthContext);
@@ -23,7 +24,7 @@ const Home = () => {
       </div>
 
       <div>
-        <img src="/To-do.png" className="hdesign" />
+        <img src={logo} className="hdesign" />
       </div>
     </div>
   );

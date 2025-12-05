@@ -1,6 +1,7 @@
 import React, { useContext, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import AuthContext from "../Context/AuthContext";
+import logo from '../assests/To-do.png';
 import "./SignIn.css"
 
 const SignIn = () => {
@@ -64,7 +65,7 @@ const SignIn = () => {
         </form>
       </div>
       <div className="backDesign">
-        <img src="/To-do.png" className="design" />
+        <img src={logo} className="design" />
       </div>
     </div>
   );

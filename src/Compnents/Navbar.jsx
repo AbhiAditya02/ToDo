@@ -2,6 +2,7 @@ import React, { useContext } from 'react'
 import { Link } from 'react-router-dom'
 import './Navbar.css'
 import AuthContext from '../Context/AuthContext'
+import logo from '../assests/To-do.png';
 
 const Navbar = () => {
   const data = useContext(AuthContext)
@@ -9,7 +10,7 @@ const Navbar = () => {
   return (
     <div className='NavBar'>
       <div className='left'>
-        <Link className='items' to={data.isLoggedIn ? '/dashboard' : '/'}><img src="../public/To-do.png" className='icon' />ToDo</Link>
+        <Link className='items' to={data.isLoggedIn ? '/dashboard' : '/'}><img src={logo} className='icon' />ToDo</Link>
       </div>
       <div className='right'>
         {
