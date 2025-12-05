@@ -7,7 +7,7 @@ This app is designed to help users **organize daily tasks effortlessly** with a 
 
 ## 🚀 Live Demo  
 
-![Link...!!](https://to-do-one-weld.vercel.app/)
+🔗 https://to-do-one-weld.vercel.app/
 
 ---
 
