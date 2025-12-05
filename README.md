@@ -13,16 +13,16 @@ This app is designed to help users **organize daily tasks effortlessly** with a 
 ## 🖼️ UI Screenshots  
 
 ### 🔹 Home Page  
-![Home](./screenshots/home.png)
+![Home](https://drive.google.com/file/d/1o3Ui87n5UQGY8iMMw0yrSGuIU_aYyfWr/view?usp=drive_link)
 
 ### 🔹 Sign In Page  
-![SignIn](./screenshots/signin.png)
+![SignIn](https://drive.google.com/file/d/1CS8o7AN8wJs62X0L1SYNLWolvFYXn3VE/view?usp=drive_link)
 
 ### 🔹 Dashboard Page  
-![Dashboard](./screenshots/dashboard.png)
+![Dashboard](https://drive.google.com/file/d/1bBdCHuBeW-XiOtsIAeqmQ7dAvoWGTGj8/view?usp=drive_link)
 
 ### 🔹 Profile Page  
-![Profile](./screenshots/profile.png)
+![Profile](https://drive.google.com/file/d/14970agrc9lLEUUYpmMYkmRnHSk-MHFGS/view?usp=drive_link)
 
 *(Add the screenshots inside a `/screenshots` folder)*
 
@@ -43,13 +43,13 @@ This app is designed to help users **organize daily tasks effortlessly** with a 
 
 ## 🛠️ Tech Stack
 
-| Category | Technologies |
-|---------|--------------|
-| Frontend | React, Vite |
-| Styling | CSS3 |
-| State Management | React Context API |
-| Routing | React Router |
-| Icons | react-icons |
+    | Category | Technologies |
+    |---------|--------------|
+    | Frontend | React, Vite |
+    | Styling | CSS3 |
+    | State Management | React Context API |
+    | Routing | React Router |
+    | Icons | react-icons |
 
 ---
 
