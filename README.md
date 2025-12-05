@@ -1,16 +1,57 @@
-# React + Vite
+# 📌 ToDo App – React (Vite)  
+A clean, modern, and responsive **To-Do Management Web App** built using **React + Vite**, featuring task creation, completion tracking, profile section, authentication UI, and a dashboard-based layout.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This app is designed to help users **organize daily tasks effortlessly** with a smooth, intuitive UI and structured component architecture.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo  
+(Upload your project to GitHub Pages / Vercel / Netlify — then paste the link here)
 
-## React Compiler
+---
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+## 🖼️ UI Screenshots  
 
-## Expanding the ESLint configuration
+### 🔹 Home Page  
+![Home](./screenshots/home.png)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🔹 Sign In Page  
+![SignIn](./screenshots/signin.png)
+
+### 🔹 Dashboard Page  
+![Dashboard](./screenshots/dashboard.png)
+
+### 🔹 Profile Page  
+![Profile](./screenshots/profile.png)
+
+*(Add the screenshots inside a `/screenshots` folder)*
+
+---
+
+## ✨ Features
+
+✔️ Elegant and responsive UI  
+✔️ Add, edit, delete, and complete tasks  
+✔️ Dashboard with tabs: **ToDo** and **Completed**  
+✔️ Profile section with **image upload + localStorage persistence**  
+✔️ Sidebar navigation  
+✔️ Authentication UI (name, email, password form)  
+✔️ Context API implementation for user/auth state  
+✔️ Vite for fast development  
+
+---
+
+## 🛠️ Tech Stack
+
+| Category | Technologies |
+|---------|--------------|
+| Frontend | React, Vite |
+| Styling | CSS3 |
+| State Management | React Context API |
+| Routing | React Router |
+| Icons | react-icons |
+
+---
+
+## 📁 Folder Structure
+
