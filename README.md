@@ -6,31 +6,29 @@ This app is designed to help users **organize daily tasks effortlessly** with a 
 ---
 
 ## 🚀 Live Demo  
-(Upload your project to GitHub Pages / Vercel / Netlify — then paste the link here)
+
+![Link...!!](https://to-do-one-weld.vercel.app/)
 
 ---
 
 ## 🖼️ UI Screenshots  
 
 ### 🔹 Home Page  
-![Home](https://drive.google.com/file/d/1o3Ui87n5UQGY8iMMw0yrSGuIU_aYyfWr/view?usp=drive_link)
+![Home](./src/assests/Screenshots/home.png)
 
 ### 🔹 Sign In Page  
-![SignIn](https://drive.google.com/file/d/1CS8o7AN8wJs62X0L1SYNLWolvFYXn3VE/view?usp=drive_link)
+![Sign In](./src/assests/Screenshots/signin.png)
 
 ### 🔹 Dashboard Page  
-![Dashboard](https://drive.google.com/file/d/1bBdCHuBeW-XiOtsIAeqmQ7dAvoWGTGj8/view?usp=drive_link)
+![Dashboard](./src/assests/Screenshots/dashboard.png)
 
 ### 🔹 Profile Page  
-![Profile](https://drive.google.com/file/d/14970agrc9lLEUUYpmMYkmRnHSk-MHFGS/view?usp=drive_link)
+![Profile](./src/assests/Screenshots/profile.png)
 
-*(Add the screenshots inside a `/screenshots` folder)*
-
----
 
 ## ✨ Features
 
-✔️ Elegant and responsive UI  
+✔️ Elegant UI  
 ✔️ Add, edit, delete, and complete tasks  
 ✔️ Dashboard with tabs: **ToDo** and **Completed**  
 ✔️ Profile section with **image upload + localStorage persistence**  
@@ -43,15 +41,52 @@ This app is designed to help users **organize daily tasks effortlessly** with a 
 
 ## 🛠️ Tech Stack
 
-    | Category | Technologies |
-    |---------|--------------|
-    | Frontend | React, Vite |
-    | Styling | CSS3 |
-    | State Management | React Context API |
-    | Routing | React Router |
-    | Icons | react-icons |
+        | Category | Technologies |
+        |---------|--------------|
+        | Frontend | React, Vite |
+        | Styling | CSS3 |
+        | State Management | React Context API |
+        | Routing | React Router |
+        | Icons | react-icons |
 
 ---
 
 ## 📁 Folder Structure
 
+TODO/
+├── public/
+│   └── To-do.png
+├── src/
+│   ├── assets/
+│   │   └── Screenshots/
+│   │       ├── home.png
+│   │       ├── signin.png
+│   │       ├── dashboard.png
+│   │       └── profile.png
+│   ├── Components/
+│   │   ├── Navbar.jsx
+│   │   └── Navbar.css
+│   ├── Context/
+│   │   ├── AuthContext.jsx
+│   │   └── AuthStates.jsx
+│   ├── DashboardCompnent/
+│   │   ├── Herosection.jsx
+│   │   ├── Herosection.css
+│   │   ├── Profile.jsx
+│   │   ├── Profile.css
+│   │   ├── Sidebar.jsx
+│   │   └── Sidebar.css
+│   ├── Pages/
+│   │   ├── Home.jsx
+│   │   ├── Home.css
+│   │   ├── SignIn.jsx
+│   │   ├── SignIn.css
+│   │   ├── Dashboard.jsx
+│   │   └── Dashboard.css
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+├── README.md
+├── package.json
+├── vite.config.js
+└── vercel.json
