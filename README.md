@@ -14,16 +14,16 @@ This app is designed to help users **organize daily tasks effortlessly** with a 
 ## 🖼️ UI Screenshots  
 
 ### 🔹 Home Page  
-![Home](./src/assests/Screenshots/home.jpg)
+![Home](./src/assests/Screenshots/Home.jpg)
 
 ### 🔹 Sign In Page  
-![Sign In](./src/assests/Screenshots/signin.png)
+![Sign In](./src/assests/Screenshots/SignIn.png)
 
 ### 🔹 Dashboard Page  
-![Dashboard](./src/assests/Screenshots/dashboard.jpg)
+![Dashboard](./src/assests/Screenshots/DashBoard.jpg)
 
 ### 🔹 Profile Page  
-![Profile](./src/assests/Screenshots/profile.jpg)
+![Profile](./src/assests/Screenshots/Profile.jpg)
 
 
 ## ✨ Features
@@ -53,6 +53,7 @@ This app is designed to help users **organize daily tasks effortlessly** with a 
 
 ## 📁 Folder Structure
 
+```
 TODO/
 ├── public/
 │   └── To-do.png
