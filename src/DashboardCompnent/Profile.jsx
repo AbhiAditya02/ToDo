@@ -15,7 +15,7 @@ const Profile = () => {
     const storedName = localStorage.getItem("profile_name")
     const storedEmail = localStorage.getItem("profile_email")
 
-    // if(storedImage) setImage(storedImage)
+    if(storedImage) setImage(storedImage)
     if (storedName) setName(storedName)
     if (storedEmail) setEmail(storedEmail)
   }, [])
